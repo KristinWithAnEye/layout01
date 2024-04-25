@@ -1,0 +1,30 @@
+/* no flex, no grids, just floats */
+
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    width: 100%;
+    border: 2px solid rgb(195, 195, 195);
+    clear: both;
+}
+
+header, footer, section {
+    background: rgb(217, 217, 217);
+}
+
+.first-row {
+    height: 150px;
+    width: 33.3333%;
+    border: 2px solid rgb(195, 195, 195);
+    float: left;
+}
+
+.second-row {
+    height: 250px;
+    width: 50%;
+    border: 2px solid rgb(195, 195, 195);
+    float: left;
+}
